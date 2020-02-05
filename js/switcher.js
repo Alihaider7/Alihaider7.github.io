@@ -15,7 +15,7 @@ if (jQuery.cookie) {
 		
 var switcherHTML = '<div id="switcher">';
 		switcherHTML +=    '<div class="color_switcher_header"><h4>Styles Selector</h4>';
-		switcherHTML +=    		'<span class="rt-icon2-brush"></span>';
+		switcherHTML +=    		'<span class="rt-icon2-light-bulb"></span>';
 		switcherHTML +=    		deleteAllCookiesHTML;
 		switcherHTML +=    '</div>';
 		// switcherHTML +=    '<div id="switcher_accent_color">';
