@@ -77,7 +77,7 @@ var switcherHTML = '<div id="switcher">';
 		jQuery('body').append(switcherHTML);
 
 		//switcher toggle
-        jQuery('#switcher span[class="rt-icon2-brush"]').on('click', function(){
+        jQuery('#switcher span[class="rt-icon2-light-bulb"]').on('click', function(){
             jQuery('#switcher').toggleClass('active');
         });
         jQuery('body').on('click', function( e ) {
