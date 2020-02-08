@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+
+<head>
+	<title>Computer Science Pakistan</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+	</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="#">
+				<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button no_bg_button">Search</button> </form>
+		</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 text-center text-lg-left hidden-xs">
+							<div class="inline-content big-spacing">
+								<div class="page_social"> <a class="social-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon socicon-google" href="#" title="Google Plus"></a> <a class="social-icon socicon-linkedin"
+									    href="#" title="Linkedin"></a> <a class="social-icon socicon-youtube" href="#" title="Youtube"></a> </div> <span class="xs-block">
+						<i class="fa fa-clock-o highlight3 rightpadding_5" aria-hidden="true"></i>
+						Mon-Fri: 9:00-19:00; Sat: 10:00-17:00; Sun: Closed
+					</span> </div>
+						</div>
+						<div class="col-lg-6 text-center text-lg-right">
+							<div id="topline-animation-wrap">
+								<div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
+							<i class="fa fa-map-marker highlight3 rightpadding_5" aria-hidden="true"></i>
+							Lahore,Pakistan
+						</span> <span class="greylinks hidden-xs">
+							<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
+							<a href="mailto:info@csofpakistan">info@csofpakistan.tech</a>
+						</span>
+									<div class="xs-block">
+									
+										
+											<li class="dropdown"> <a id="search-show" href="index.html">
+										<i class="fa fa-search"></i>
+									</a> </li>
+										</ul>
+									</div>
+								</div>
+								<div id="topline-show" class="widget widget_search">
+									<form method="get" class="searchform inline-form" action="#">
+										<div class="form-group-wrap">
+											<div class="form-group"> <label class="sr-only" for="topline-widget-search">Search for:</label> <input id="topline-widget-search" type="text" value="" name="search" class="form-control" placeholder="Enter Keyword..."> <a href="index.html" id="search-close">
+									<i class="fa fa-close"></i>
+								</a> </div> <button type="submit" class="theme_button no_bg_button color1">ok</button> </div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="page_header header_white toggler_xs_right columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell"> <a href="index.html" class="logo logo_with_text">
+                        <img src="images/logo.png" alt="">
+                        <span class="logo_text">
+                            CS Pakistan
+                            <small class="highlight4">IT community center</small>
+                        </span>
+                    </a> </div>
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active"> <a href="index-2.html">Home</a>
+											<ul>
+												<li> <a href="index.html">Home</a> </li>
+												
+											</ul>
+										</li>
+								
+										<li class="active"> <a href="index.html">Community</a>
+											
+											<ul>
+												<li> <a href="#">About</a> </li>
+												<li> <a href="#">Portal Login </a> </li>
+												<li> <a href="#">Code of Conduct</a> </li>
+											</ul>
+											
+										</li>
+										
+									
+										
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler --><span class="toggle_menu"><span></span></span>
+							</div>
+							<div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="help.html" class="theme_button color2 margin_0">Need Help</a> </div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+		<div id ="c-home" class = "card-dark card-1 padding1" style="width:95%;">
+<section class="fdb-block" data-block-type="contents" data-id="22" draggable="true" style = "background:#444; color:white;">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center fr-box fr-inline" role="application" style="z-index: 10000;">
+        <div class="fr-wrapper" dir="auto">
+          <div class="fr-element fr-view" dir="auto" contenteditable="false" aria-disabled="false" spellcheck="true">
+            <h2>Cs of Pakistan Aim</h2>
+            <div class="row text-left pt-4">
+              <div class="col-12 col-md-6">
+                <p class="lead" style = "text-align:left;color:white;">The aim of our community is to spread the advantages of computer science and creating a community of new friends which will help students to learn more about other students and create open source projects which developed more skills to community members.</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+</div>
+ <!--------------------------------------------->
+
+ <!---------------------Tech-------------------->
+<div id = "tech" class = "card card-1 padding1" style="width:95%;">
+<section class="fdb-block" data-block-type="contents" data-id="23" draggable="true">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0" style="z-index: 10000;"><p><img alt="image" class="img-fluid rounded-0 fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/git.svg"></p></div>
+
+      <div class="col-12 ml-auto col-md-6 col-lg-5 card4 card-1" style="z-index: 10000; background:#444; color:white;"><h2>Technical Team</h2><p class="lead"  style="text-align: left; color:white;">Group of individuals tasked to create softwares/apps/websites that help the technical as well as non-technical people of different professionals. Tech team gives hands on experience to students and better solutions to community.</p><p><br></p></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class = "card card-1 padding1" style="width:95%;">
+<section class="fdb-block" data-block-type="features" data-id="29" draggable="true">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto" style="z-index: 10000;">
+          <p><img alt="image" class="img-fluid" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/features.svg"></p>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0" style="z-index: 10000;">
+          <h3>Some projects we are working on.</h3>
+          <div class="row pt-4 pt-xl-5">
+            <div class="col-12 col-sm-6 col-xl-5 fr-box card2 card-1" role="application" style="z-index: 10000;">
+              <div class="fr-wrapper" dir="auto">
+                <div aria-disabled="false" class="fr-element fr-view" contenteditable="false" dir="auto" spellcheck="true">
+                  <h4><strong>ResumeMate</strong></h4>
+                  <p>A Colloboration Project which creates automatically Professional resume with job dashboard.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-5 m-auto pt-3 pt-sm-0 fr-box card2 card-1" role="application" style="z-index: 10000;">
+              <div class="fr-wrapper" dir="auto">
+                <div aria-disabled="false" class="fr-element fr-view" contenteditable="false" dir="auto" spellcheck="true">
+                  <h4><strong><br/>RateYourProfessor</strong></h4>
+                  <p>RYP projects help Cs students to Rate their University Teachers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+</div>
+ <!--------------------------------------------->
+
+ <!--------------=----Github-------------------->
+<div  class = "card card-1 padding1" style="width:95%;">
+<section class="fdb-block fp-active" style="background-image: url(https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//shapes/8.svg)" data-block-type="contents" data-id="19" draggable="true">
+  <div id = "git" class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 col-lg-5 card4 card-1"  style="z-index: 10000; background:#444; color:white;"><p><img alt="image" class="fdb-icon fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/github.svg"></p><h2>Github</h2><p class="lead" style="text-align: left; color:white">We use GitHub for Project Colloboration </p><p class="lead" style="text-align: justify; color:white;"></p></div>
+      <div class="col-10 col-sm-6 m-auto col-md-4 pt-4 pt-md-0" style="z-index: 10000;"><p><img alt="image" class="img-fluid rounded-0" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/chat.svg"></p></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class = "card card-1 padding1" style="width:95%;">
+<section class="fdb-block" data-block-type="features" data-id="31" draggable="true">
+    <div class="container">
+      <div class="row text-left justify-content-sm-center">
+	  <h3> Cs of Pakistan Members Learn </h3>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto card2 card-1" style="z-index: 10000;"><h3><strong>Android</strong></h3><p>For beginers, to start their careers in Android <a href = "" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-md-0 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>Learn iOS</strong></h3><p>For beginers, to start their careers in iOS <a href = "" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>Learn Web Development</strong></h3><p>React Native,Django Python <a href = "" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>Git & GitHub</strong></h3><p>For serverless applications/websites, Node.js is a must. <a href = "" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+      </div>
+  
+      
+        </div>
+
+        </div>
+    </div>
+</section>
+<section id="more_git" style="display: none;" class="fdb-block" data-block-type="features" data-id="31" draggable="true">
+    <div class="container">
+      
+    </div>
+</section>
+</div>
+
+<div class = "card card-1 padding1" style="width:95%;">
+<section class="fdb-block" data-block-type="contents" data-id="24" draggable="true">
+  <div id = "aswan" class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 mb-4 mb-md-0" style="z-index: 10000;"><p><img alt="image" class="img-fluid" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/smile.svg"></p></div>
+      <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left card4 card-1" style="z-index: 10000; background:#444; color:white;"><h2>Team CSPakistan</h2><p><br></p><p class="lead" style="text-align: left; color:white">Addressing the problems of students has always been our priority. Peer to Peer Mentor ship Program is one part of this chain where seniors teach their juniors. Book Donation Drive focuses on transfer of books from seniors to juniors thus helping out in any possible way. And community service is always our goal we visit the shelter homes,orphanages and schools to spread smiles and awareness to the elderly and the young.&nbsp;</p><p><br></p></div>
+    </div>
+  </div>
+</section>
+</div>
+ <!--------------------------------------------->
+
+<!------------------Resources------------------->
+<div class = "card card-1" style="width:95%; padding:1rem;">
+      
+<section class="fdb-block" data-block-type="features" data-id="33" draggable="true">
+    <div id = "res" class="container">
+      <div class="row align-items-center pb-xl-5">
+        <div class="col-12 col-md-7 col-xl-5 card2 card-1" style="z-index: 10000; background:#444; color:white;">
+          <h2>Resources</h2>
+          <p class="lead" style="text-align: left; color:white;">
+                You can find useful link below to further your studies, find new opportunities and learn 
+                new skills in the field of Coumputer Science and Software Engineering degrees. Internships, online goodies, Scholarships from different universities or 
+                maybe some intersting blog post, explore your area of interest.
+          </p>
+          </div>
+        <div class="col-12 col-sm-6 col-md-4 m-sm-auto mr-md-0 ml-md-auto pt-4 pt-md-0" style="z-index: 10000;">
+          <p><img alt="image" class="img-fluid fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/scrum.svg"></p>
+        </div>
+      </div>
+  
+      <div class="row pt-5">
+          <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto card2 card-1" style="z-index: 10000;"><h3><strong>Github Student Pack</strong></h3><p>Student Pack that comes with perks and access to tools. <a href = "https://education.github.com/pack" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+          <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-md-0 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>GSOC</strong></h3><p>Google Summer of Code, internships from open source organizations for summer.<a href = "https://summerofcode.withgoogle.com/" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+          <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>Microsoft Student Pack</strong></h3><p>Azure platform provides you scalable,reliable services.<a href = "https://www.microsoft.com/en-us/education/students" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+          <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0" style="z-index: 10000;">
+          <div aria-disabled="false" style="padding-top:3rem;" class="fr-element fr-view"  dir="auto" spellcheck="true"><p><button class="button" id ="btnresource1" onclick="tog_resource()" type="submit">See More</button></p></div>
+          </div>
+      </div>
+</section>
+  
+  </div>
+  <section id ="res_more" style = "display: none;" class="fdb-block" data-block-type="features" data-id="31" draggable="true">
+    <div class="container">
+      <div class="row text-left justify-content-sm-center">
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto card2 card-1" style="z-index: 10000;"><h3><strong>Job/Internships at Google</strong></h3><p>Looking for a job or summer long internship ? Google is hiring.<a href = "https://careers.google.com/jobs/results/92546210297979590-information-technology-intern-2019/?%3Futm_source=goabroad.com&amp;employment_type=INTERN&amp;jlo=en_US&amp;utm_campaign=article-feature&amp;utm_medium=referral" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-md-0 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>CS/SE Internships</strong></h3><p>Link to some Universities worth checking out.<a href = "https://www.cs.purdue.edu/corporate/internships/index.html" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>CS/SE Internships</strong></h3><p>Indeed.com has some potential internships for you. <a href = "https://www.indeed.com/q-Computer-Science-Summer-Intern-jobs.html" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>For 1,2 year students </strong></h3><p>To Freshmen and Sophomores, here are some internships you should apply.<a href = "https://www.wellesley.edu/careereducation/resources/technology-internships-first-years-and-sophomores" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+      </div>
+  
+      <div class="row text-left justify-content-sm-center pt-3 pt-lg-5">
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto card2 card-1" style="z-index: 10000;"><h3><strong>EE Internships</strong></h3><p>For EE students looking to secure good internships abroad.<a href = "https://www.goabroad.com/intern-abroad/search/engineering-electrical/internships-abroad-1" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-md-0 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>CS/SE Local Internships</strong></h3><p>Some insternships in Pakistan.<a href = "https://www.indeed.com.pk/Programming-Internship-jobs" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0 card2 card-1" style="z-index: 10000;"><h3><strong>GYLS</strong></h3><p>Global Youth Leadership Summit for the young. <a href = "https://www.thetonyrobbinsfoundation.org/programs/youth-leadership/tony-robbins-global-youth-leadership-summit/" target = "_blank"><i class="fas fa-arrow-circle-right"></i></a></p></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 ml-xl-auto mr-xl-auto pt-3 pt-lg-0" style="z-index: 10000; text-align: center;">
+                <div aria-disabled="false" style="padding-top:3rem; text-align:centre;" class="fr-element fr-view"  dir="auto" spellcheck="true"><p><button class="button" type="submit">See More</button></p>  
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+			<footer class="page_footer template_footer ds ms parallax overlay_color section_padding_top_110 section_padding_bottom_100 columns_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="subscribe" class="widget widget_mailchimp with_padding cs main_color2 parallax overlay_color topmargin_0">
+								<h3 class="widget-title">Our Newsletter</h3>
+								<form class="signup" action="#" method="get">
+									<div class="form-group-wrap">
+										<div class="form-group"> <label for="mailchimp" class="sr-only">Enter your email here</label> <input name="email" type="email" id="mailchimp" class="mailchimp_email form-control text-center" placeholder="Your Email Address"> </div> <button type="submit" class="theme_button color2">Subscribe now</button>										</div>
+									<div class="response"></div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 col-md-push-4 text-center">
+							<div class="widget widget_text widget_about">
+								
+								<p>The aim of our community is to spread the advantages of computer science and creating a community of new friends which will help students to learn more about other students.That's why making new friends create Interest inside me building communities .</p>
+								<p class="topmargin_25"> <a class="social-icon border-icon rounded-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon border-icon rounded-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon border-icon rounded-icon socicon-google"
+									    href="#" title="Google Plus"></a> <a class="social-icon border-icon rounded-icon socicon-linkedin" href="#" title="Linkedin"></a> <a class="social-icon border-icon rounded-icon socicon-youtube" href="#" title="Youtube"></a> </p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 col-md-pull-4 text-center">
+							<div class="widget widget_text">
+								<h3 class="widget-title">Our Contacts</h3>
+								<ul class="list-unstyled greylinks">
+									<li class="media"> <i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i> Lahore,Pakistan </li>
+									<li class="media"> <i class="fa fa-pencil highlight rightpadding_5" aria-hidden="true"></i> <a href="mailto:info@csofpakistan.tech">info@csofpakistan.tech</a> </li>
+									<li class="media"> <i class="fa fa-clock-o highlight rightpadding_5" aria-hidden="true"></i> Mon-Fri: 9:00-19:00, Sat: 10:00-17:00 </li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 hidden-xs hidden-sm text-center">
+							<div class="widget widget_recent_posts">
+								<h3 class="widget-title">Recent Blogs</h3>
+								<ul class="list-unstyled greylinks">
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<section class="ds ms parallax page_copyright overlay_color section_padding_top_30 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; Copyright 2018 - 2020. All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+	<script src="js/compressed.js"></script>
+	<script src="js/selectize.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/switcher.js"></script>
+</body>
+
+
+
+</html>
